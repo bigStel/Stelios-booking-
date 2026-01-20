@@ -1,0 +1,7 @@
+{
+  "name": "Professional Service Landing & Booking",
+  "description": "A high-end, responsive landing page with an integrated AI concierge and Google Calendar booking capabilities.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
