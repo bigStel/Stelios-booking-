@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ChevronRight, Star, Award, CheckCircle, Sparkles } from 'lucide-react';
 
@@ -16,7 +15,7 @@ const Hero: React.FC = () => {
           <div className="flex-1 text-left space-y-8 order-2 lg:order-1">
             <div className="inline-flex items-center gap-2 bg-indigo-50 border border-indigo-100 px-4 py-2 rounded-full">
               <Sparkles className="w-4 h-4 text-indigo-600" />
-              <span className="text-sm font-semibold text-indigo-700">AI-Powered Consulting & Business Strategy</span>
+              <span className="text-sm font-semibold text-indigo-700">Strategic Consulting & Business Excellence</span>
             </div>
             
             <h1 className="text-5xl md:text-6xl xl:text-7xl font-extrabold text-gray-900 leading-[1.1]">
@@ -24,7 +23,7 @@ const Hero: React.FC = () => {
             </h1>
             
             <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
-              Συνδυάζουμε την ανθρώπινη εμπειρία με την ισχύ της <b>Τεχνητής Νοημοσύνης</b> για να προσφέρουμε λύσεις που φέρνουν πραγματικά αποτελέσματα.
+              Συνδυάζουμε την πολυετή εμπειρία με σύγχρονες μεθοδολογίες για να προσφέρουμε λύσεις που φέρνουν πραγματική ανάπτυξη.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center gap-4 pt-4">
@@ -63,11 +62,9 @@ const Hero: React.FC = () => {
           {/* Right Column: Profile Photo */}
           <div className="flex-1 relative order-1 lg:order-2">
             <div className="relative w-full aspect-square max-w-[500px] mx-auto">
-              {/* Decorative Frame Elements */}
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-indigo-100 rounded-2xl -z-10 animate-pulse" />
               <div className="absolute -bottom-6 -left-6 w-32 h-32 border-4 border-violet-200 rounded-full -z-10" />
               
-              {/* Floating Cards */}
               <div className="absolute top-10 -left-8 bg-white p-4 rounded-2xl shadow-xl border border-gray-50 flex items-center gap-3 z-10 animate-bounce transition-all hover:scale-105" style={{ animationDuration: '3s' }}>
                 <div className="bg-emerald-100 p-2 rounded-lg">
                   <CheckCircle className="w-5 h-5 text-emerald-600" />
@@ -88,7 +85,6 @@ const Hero: React.FC = () => {
                 </div>
               </div>
 
-              {/* Main Profile Image */}
               <div className="w-full h-full rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white transform rotate-3 hover:rotate-0 transition-transform duration-500">
                 <img 
                   src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=800" 
@@ -98,10 +94,8 @@ const Hero: React.FC = () => {
               </div>
             </div>
           </div>
-
         </div>
 
-        {/* Client Logos Section */}
         <div className="pt-24 border-t border-gray-100 mt-20">
           <p className="text-center text-sm font-semibold text-gray-400 uppercase tracking-[0.2em] mb-12">Συνεργασίες με κορυφαία Brands</p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-12 grayscale opacity-40 hover:opacity-100 transition-opacity">

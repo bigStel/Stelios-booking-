@@ -1,10 +1,8 @@
-
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Booking from './components/Booking';
-import AiAssistant from './components/AiAssistant';
 import Footer from './components/Footer';
 
 function App() {
@@ -43,8 +41,6 @@ function App() {
       </main>
 
       <Footer />
-      
-      <AiAssistant />
     </div>
   );
 }

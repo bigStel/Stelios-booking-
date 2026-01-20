@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Shield, Bot, TrendingUp, Users } from 'lucide-react';
+import { Shield, Layout, TrendingUp, Users } from 'lucide-react';
 
 const services = [
   {
@@ -10,9 +9,9 @@ const services = [
     price: '99€ / ώρα'
   },
   {
-    icon: <Bot className="w-8 h-8 text-violet-600" />,
-    title: 'AI & Αυτοματισμοί',
-    description: 'Ενσωμάτωση έξυπνων Chatbots (όπως αυτό που βλέπετε!) και αυτοματισμών για 24/7 εξυπηρέτηση.',
+    icon: <Layout className="w-8 h-8 text-violet-600" />,
+    title: 'Ψηφιακός Μετασχηματισμός',
+    description: 'Εκσυγχρονισμός των διαδικασιών σας με σύγχρονα ψηφιακά εργαλεία για μέγιστη αποδοτικότητα.',
     price: 'Custom Project'
   },
   {
@@ -44,11 +43,6 @@ const Services: React.FC = () => {
               key={index}
               className="bg-white p-8 rounded-3xl border border-gray-100 hover:shadow-2xl hover:shadow-indigo-100 transition-all group relative overflow-hidden"
             >
-              {service.title.includes('AI') && (
-                <div className="absolute top-4 right-4 bg-violet-100 text-violet-600 text-[10px] font-bold px-2 py-1 rounded-full uppercase tracking-wider">
-                  Δημοφιλές
-                </div>
-              )}
               <div className="mb-6 p-4 bg-gray-50 rounded-2xl group-hover:bg-indigo-50 transition-colors w-fit">
                 {service.icon}
               </div>

@@ -1,20 +1,16 @@
-
 {
   "name": "proconnect-landing-page",
   "version": "1.0.0",
-  "description": "Professional Service Landing Page with AI Assistant & Booking",
+  "description": "Professional Service Landing Page & Booking System",
   "main": "index.tsx",
   "dependencies": {
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "@google/genai": "^1.37.0",
     "lucide-react": "^0.562.0"
   },
   "keywords": [
     "react",
     "landing-page",
-    "ai-chatbot",
-    "gemini-api",
     "booking-system",
     "typescript"
   ],
