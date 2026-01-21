@@ -1,8 +1,9 @@
 
 import { GoogleGenAI } from "@google/genai";
+import { Message } from "../types";
 
 // getGeminiResponse interacts with the GenAI model to provide professional assistance based on chat history.
-export const getGeminiResponse = async (userMessage: string, chatHistory: { role: string; content: string }[]) => {
+export const getGeminiResponse = async (userMessage: string, chatHistory: Message[]) => {
   // Always initialize GoogleGenAI with the API key from process.env.API_KEY as per guidelines.
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
   

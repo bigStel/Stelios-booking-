@@ -2,7 +2,7 @@
   "name": "proconnect-landing-page",
   "version": "1.0.0",
   "description": "Professional Service Landing Page & Booking System",
-  "main": "index.tsx",
+  "main": "index.js",
   "dependencies": {
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
@@ -12,7 +12,7 @@
     "react",
     "landing-page",
     "booking-system",
-    "typescript"
+    "javascript"
   ],
   "author": "Your Name",
   "license": "MIT"

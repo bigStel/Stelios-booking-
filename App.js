@@ -1,10 +1,9 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import Booking from './components/Booking';
-import Footer from './components/Footer';
-import AiAssistant from './components/AiAssistant';
+import Navbar from './components/Navbar.js';
+import Hero from './components/Hero.js';
+import Services from './components/Services.js';
+import Booking from './components/Booking.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -42,7 +41,6 @@ function App() {
       </main>
 
       <Footer />
-      <AiAssistant />
     </div>
   );
 }

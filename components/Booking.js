@@ -1,11 +1,11 @@
 import React, { useState, useMemo } from 'react';
 import { Calendar as CalendarIcon, ExternalLink, Clock, CheckCircle, ChevronLeft, ChevronRight, Settings } from 'lucide-react';
 
-const Booking: React.FC = () => {
+const Booking = () => {
   const [calendarUrl, setCalendarUrl] = useState('https://calendar.google.com/calendar/appointments/schedules/AcZssM2lR-example');
   const [showSettings, setShowSettings] = useState(false);
   const [tempUrl, setTempUrl] = useState(calendarUrl);
-  const [selectedDate, setSelectedDate] = useState<number | null>(null);
+  const [selectedDate, setSelectedDate] = useState(null);
   const [currentDate, setCurrentDate] = useState(new Date());
 
   const daysInMonth = useMemo(() => {
@@ -19,7 +19,7 @@ const Booking: React.FC = () => {
   const monthName = currentDate.toLocaleString('el-GR', { month: 'long' });
   const yearLabel = currentDate.getFullYear();
 
-  const handleDateClick = (day: number) => {
+  const handleDateClick = (day) => {
     setSelectedDate(day);
   };
 

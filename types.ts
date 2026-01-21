@@ -10,13 +10,14 @@ export interface Service {
   icon: React.ReactNode;
 }
 
-export interface Message {
-  role: 'user' | 'assistant';
-  content: string;
-}
-
 export interface BookingDetails {
   serviceId: string;
   date: Date;
   time: string;
+}
+
+// Message interface for chat history
+export interface Message {
+  role: 'user' | 'assistant';
+  content: string;
 }
